@@ -15,6 +15,9 @@ body {
   background-color: #d6d6d6;
   overflow: hidden;
 }
+.menu {
+  display: none;
+}
 nav {
   width: 100%;
   display: flex;
@@ -91,7 +94,8 @@ header {
   gap: 30px;
   transition: 0.25s all;
 }
-.buttons button, .page5 .content button {
+.buttons button,
+.page5 .content button {
   width: 200px;
   padding: 10px 30px;
   background-color: #2a304c;
@@ -213,7 +217,7 @@ header {
 .page3 .content span {
   text-transform: uppercase;
   font-size: 18px;
-  font-size: 700;
+  font-weight: 700;
   letter-spacing: 2px;
   color: #f3e7dc;
 }
@@ -311,8 +315,8 @@ header {
   justify-content: center;
   gap: 20px;
 }
-.testi p{
-    font-size: 14px;
+.testi p {
+  font-size: 14px;
 }
 .testi .customer {
   display: flex;
@@ -321,110 +325,106 @@ header {
 }
 
 .testi .customer img {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center;
-    border: 3px solid #301c1a;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  border: 3px solid #301c1a;
 }
-.data h6{
-    line-height: 1px;
+.data h6 {
+  line-height: 1px;
 }
-.data span{
-    color: #00000080;
-    font-size: 10px;
+.data span {
+  color: #00000080;
+  font-size: 10px;
 }
-.page5{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    gap: 10px;
-    padding: 80px;
+.page5 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+  padding: 80px;
 }
 .page5 .content {
-    width: 100%;
-    /* border:  2px solid; */
+  width: 100%;
+  /* border:  2px solid; */
 }
-.page5 .content h1{
-    width: 100%;
+.page5 .content h1 {
+  width: 100%;
 }
 footer {
-    width: 100%;
-    background-color: #2a304c;
-    padding: 5% 10% 2% 10%;
+  width: 100%;
+  background-color: #2a304c;
+  padding: 5% 10% 2% 10%;
 }
-.banner{
-    width: 90%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-left: 4%;
-    padding-bottom: 2%;
-    color: #fff;
-    border-bottom: 2px solid #d6d6d6;
+.banner {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 4%;
+  padding-bottom: 2%;
+  color: #fff;
+  border-bottom: 2px solid #d6d6d6;
 }
-footer span{
-    text-transform: uppercase;
-
+footer span {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-size: 18px;
 }
-footer .content{
-    /* border: 2px solid red; */
+footer .content h1 {
+  width: 90%;
+  color: #d6d6d6;
+  font-size: 30px;
+  text-transform: capitalize;
 }
-footer .content h1{
-    width: 90%;
-    color: #d6d6d6;
-    font-size: 30px;
-    text-transform: capitalize;
+footer .mail {
+  width: 50%;
 }
-footer .mail{
-    width: 50%;
+footer .mail p {
+  width: 70%;
+  margin-bottom: 5%;
+  color: #d6d6d6;
+  font-weight: 200;
 }
-footer .mail p{
-    width: 70%;
-    margin-bottom: 5%;
-    color: #d6d6d6;
-    font-weight: 200;
+footer .input-area {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2px;
 }
-footer .input-area{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 2px;
+footer .mail input {
+  padding: 11px 25px;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #fff;
 }
-footer .mail input{
-    padding: 11px 25px;
-    outline: none;
-    background-color: transparent;
-    border: 1px solid #fff;
-    color: #fff;
+::placeholder {
+  font-family: "SUSE";
+  font-weight: 700;
+  color: #fff;
 }
-::placeholder{
-    font-family: "SUSE";
-    font-weight: 700;
-    color: #fff;
+footer .mail button {
+  padding: 11px 20px;
+  background-color: #fff;
+  color: #2a304c;
+  border: none;
+  border-radius: 2px;
+  font: 700 15px "SUSE";
+  text-transform: uppercase;
+  cursor: pointer;
 }
-footer .mail button{
-    padding: 11px 20px;
-    background-color: #fff;
-    color: #2a304c;
-    border: none;
-    border-radius: 2px;
-    font: 700 15px "SUSE";
-    text-transform: uppercase;
-    cursor: pointer;
+hr {
+  color: #fff;
 }
-hr{
-    color: #fff;
+h5 {
+  color: #fff;
+  text-align: center;
+  margin-top: 3%;
 }
-h5{
-    color: #fff;
-    text-align: center;
-    margin-top: 3%;
-}
-
-
-
